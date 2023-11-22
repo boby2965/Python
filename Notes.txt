@@ -1,0 +1,51 @@
+Day 1  -- Working with Variables in Python to Manage Data
+==========================================================
+
+print()   --> Used to print output to the console
+input()   --> Takes input from the console
+Ex:
+  print("hello world")  --> Prints the output as hello world in the console.
+            Here hello world in the paranthesis is called as "String"
+
+- To comment a line we use "#"
+- By using ctrl + / comments an already existing line of code
+Note:
+  - we can nest the input in the print function as follows
+  Ex:
+      print("Hello"+ input("Your name please!"))
+
+  - When printing the output we should be careful about the spaces/ Indentation before the print function 
+    If there is an extra space before the print function then it will throw an "Indentation Error".
+
+String:
+-------
+    - String should always start and end with Double/Single quotes.
+    - By using an "+" operator we can concatinate the strings
+      ex:
+        print("Hello" + "World")   --> It prints HelloWorld as output
+Note:
+  If the quotations are missing then it will throw an "syntax Error".
+
+Variables:
+---------- 
+  - We store the data in a variable.
+  - We use Camel casing for variable naming in python
+  - spaces should not be used between the words oa a variable.
+  - We use "_" to seperate words in python.
+  - we cant use number at the begining of the variable.
+  - We should not use keywords as variables.
+Ex:
+    name = input("What is your name")
+    print("name")
+
+Day2 -- Understanding Data Types and How to Manipulate Strings
+=================================================
+
+
+
+
+
+
+
+
+
