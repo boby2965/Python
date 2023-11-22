@@ -40,12 +40,37 @@ Ex:
 
 Day2 -- Understanding Data Types and How to Manipulate Strings
 =================================================
+Data Types:
+-----------
+- String
+- Integer
+- Float 
+- Boolean
 
+String:
+-------
+  print("hello"[0])      --> gives 'h' as output
+  print("123"[1])        --> gives '2' as output
+      - This method of pulling out a particular element from a string is called "sub-scripting/ subscript".
+      - The starting number always starts from "0".
+Note:
+  we cannot concatinate string with integer as it will throw an error.
+  Ex:
+    num= len(input("what is your name"))
+    print("your name has"+ num +"characters")    --> this code will throw an error
 
+Integer:
+--------
+  print(123 + 345)   --> gives output as '468'
+  print(123_456_879)  --> gives output as '123456879'
 
+Float:
+-------
+  print(3.14)    
 
-
-
+Boolean:
+--------
+  True (or) False
 
 
 
