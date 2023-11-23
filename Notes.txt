@@ -3,19 +3,19 @@ Day 1  -- Working with Variables in Python to Manage Data
 
 print()   --> Used to print output to the console
 input()   --> Takes input from the console
+               - The Data given to  the input function will always be a "String"
 Ex:
   print("hello world")  --> Prints the output as hello world in the console.
             Here hello world in the paranthesis is called as "String"
 
-- To comment a line we use "#"
-- By using ctrl + / comments an already existing line of code
-Note:
-  - we can nest the input in the print function as follows
-  Ex:
-      print("Hello"+ input("Your name please!"))
-
-  - When printing the output we should be careful about the spaces/ Indentation before the print function 
-    If there is an extra space before the print function then it will throw an "Indentation Error".
+  - To comment a line we use "#"
+  - By using ctrl + / comments an already existing line of code
+      Note:
+        - we can nest the input in the print function as follows
+            print("Hello"+ input("Your name please!"))
+      
+        - When printing the output we should be careful about the spaces/ Indentation before the print function 
+          If there is an extra space before the print function then it will throw an "Indentation Error".
 
 String:
 -------
@@ -54,11 +54,14 @@ String:
       - This method of pulling out a particular element from a string is called "sub-scripting/ subscript".
       - The starting number always starts from "0".
 Note:
-  we cannot concatinate string with integer as it will throw an error.
-  Ex:
-    num= len(input("what is your name"))
-    print("your name has"+ num +"characters")    --> this code will throw an error
-
+      - we cannot concatinate string with integer as it will throw an error.
+                num= len(input("what is your name"))
+                print("your name has"+ num +"characters")    --> this code will throw an error
+      - To change a integer into string we use 
+                str(num)    
+      - If a number 1.65 is given as an input then it can only be converted to "float" and not into an integer.
+                  num= input("given number")
+                  float(num)
 Integer:
 --------
   print(123 + 345)   --> gives output as '468'
@@ -66,11 +69,40 @@ Integer:
 
 Float:
 -------
-  print(3.14)    
+  print(3.14)  
+ 
 
 Boolean:
 --------
   True (or) False
+
+Mathematical Operators:
+-----------------------
+      +  --> addition
+      -  --> Subtraction
+      *  --> Multiplication
+      /  --> Division -- always gives float
+      ** --> Exponent
+  - Python follows PEMDAS rules
+      p - paranthesis  
+      e - exponent
+      m  - multiplication  d  - Division
+      A   - Addition       S - Subtraction
+- The calculation which is to the left has the most priority.
+
+f-string:
+----------
+- In-order to decreace the use of string fomatiing in the print function we can use f-string.
+      score = 2
+      height = 1.56
+      isWinning = True
+      #print("Your score is" + str(score)+" ...")    -- Instead we can use
+      print(f"Your score is {score} ...)
+
+Day3 -- Control flow and Logical operators
+============================================
+
+
 
 
 
