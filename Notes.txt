@@ -96,13 +96,53 @@ f-string:
       score = 2
       height = 1.56
       isWinning = True
-      #print("Your score is" + str(score)+" ...")    -- Instead we can use
+      #print("Your score is" + str(score)+" ...")    -- Instead of this line of code we can use
       print(f"Your score is {score} ...)
 
 Day3 -- Control flow and Logical operators
 ============================================
+If/ Else Conditional:
+---------------------
+if condition:
+  do this
+else: 
+  do this
 
+Nested If/else:
+--------------
+if condition:
+  if another condition:
+    do this
+  else:
+    do this
+else: 
+  do this
 
+If/ Elif/Else:
+---------------
+if condition1:
+  do A
+elif condition2:
+  do B
+else: 
+  do this
 
+Multiple If's:
+--------------
+if condition1:
+  do A
+if condition2:
+  do B
+if condition3:
+  do C
+
+Logical Operators:
+------------------
+A and B    --> Both of htem needs to be true
+C or D     --> Either of them is true
+not E      --> If the condition is true then it becomes false
+
+Day4 -- 
+======================
 
 
